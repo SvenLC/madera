@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "line": {
+        "name": "luxe",
+        "model": {
+          "name": "Bois",
+          "customizations": [
+            {
+              "type": "isolation",
+              "material": "Ouate de cellulose"
+            }
+          ]
+        }
+      },
+      "modules": [
+        {
+          "name": "Mur ouest - 1",
+          "sections": [{ "number": 1, "length": 400 }]
+        },
+        {
+          "name": "Mur nord - 1",
+          "startWith": "Mur ouest - 1",
+          "sections": [
+            { "number": 1, "length": 200 },
+            { "number": 2, "length": 150, "angle": "entrant", "degree": 90 },
+            { "number": 3, "length": 100, "angle": "sortant", "degree": 270 }
+          ]
+        },
+        {
+          "name": "Mur est - 1",
+          "startWith": "Mur ouest - 1",
+          "sections": [{ "number": 1, "length": 400 }]
+        },
+        {
+          "name": "Mur ouest - 1",
+          "sections": [{ "number": 1, "length": 400 }]
+        }
+      ]
+    }
+  ]
+}
