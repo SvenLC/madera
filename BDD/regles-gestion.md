@@ -24,6 +24,12 @@
 
 - Un modèle est lié à une et une seule gamme
 - un modèle peut avoir un ou plusieurs changements
+- Un modèle de gamme peut être lié à une ou plusieurs personnalisation
+
+### Entitié personnalisation
+
+- Une personnalisation est lié à un et un seul modèle
+- Une personnanisation est lié à un ou plusieurs composants
 
 ### Entité module
 
@@ -37,6 +43,15 @@
 - Une section est lié à un et un seul module
 - Une section à un angle qui peut être 90° ou 270°
 - Une section peut être à la suite d'une autre section
+
+## Configuration
+
+### Configuration module
+
+- Une configuration de module est lié à une et une seule gamme
+- Une configuration de module est lié à une et une seule type de section
+- Une configuration de module est lié à un et un seul type montant
+- Une configuration de module est lié à un et un seul type de remplissage
 
 ## Client
 

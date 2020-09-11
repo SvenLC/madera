@@ -7,7 +7,7 @@
 | Libellé de la propriété | Nom du champ | Type |
 | ----------------------- | ------------ | ---- |
 | Identifiant             | CHA_ID       | N    |
-| Référence               | CHA_REF      | AN   |
+| Référence               | CHA_REF      | S    |
 | Nom                     | CHA_NOM      | S    |
 | Date                    | CHA_DATE     | DATE |
 
@@ -31,6 +31,12 @@
 | Identifiant             | MOD_GAM_ID   | N    |
 | Nom                     | MOD_GAM_NOM  | S    |
 
+### Entitié personnalisation
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+
+
 ### Entité module
 
 | Libellé de la propriété | Nom du champ | Type |
@@ -47,6 +53,16 @@
 | Longueur                | SEC_LONGUEUR | N    |
 | Angle                   | SEC_ANGLE    | S    |
 | Degrée angle            | SEC_DEGREE   | N    |
+
+## Configuration
+
+### Configuration module
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+
+
+|
 
 ## Client
 
