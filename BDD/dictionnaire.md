@@ -92,4 +92,41 @@
 | Identifiant             | ADR_ID          | N    |
 | Numéro de la voie       | ADR_NUM_VOIE    | N    |
 | Libellé de la rue       | ADR_LIBELLE_RUE | S    |
-| Ville                   | adr_ville       | S    |
+| Ville                   | ADR_VILLE       | S    |
+
+## Fournisseur
+
+### Entité Famille de composant
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+| Identifiant             | FAM_ID       | N    |
+| Nom                     | FAM_NOM      | S    |
+
+### Entité Composant
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+| Identifiant             | COM_ID       | N    |
+| Nom                     | COM_NOM      | S    |
+| Quantité                | COM_QUANTITE | S    |
+| Quantité                | COM_NOM      | S    |
+
+### Entité Article
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+| Identifiant             | COM_ID       | N    |
+| Nom                     | COM_NOM      | S    |
+| Quantité                | COM_QUANTITE | S    |
+
+### Entité Composant
+
+| Libellé de la propriété | Nom du champ    | Type |
+| ----------------------- | --------------- | ---- |
+| Identifiant             | COM_ID          | N    |
+| Nom                     | COM_NOM         | S    |
+| Désignation             | COM_DESIGNATION | S    |
+| Quantité                | COM_QUANTITE    | S    |
+| Prix d'achat            | COM_PRIX_ACHAT  | N    |
+| Prix de vente           | COM_PRIX_VENTE  | N    |

@@ -57,3 +57,19 @@
 
 - Un client est lié à un et un seul commercial
 - Un client peut avoir une ou plusieurs adresse
+
+## Fournisseur
+
+### Famille de composant
+
+- Une famille de composant est liée à une et une seule gamme
+
+### Article
+
+- Un article est lié à une et une seule famille de composant
+- Un article est lié à un et un seul fournisseur
+
+### Composant
+
+- Un composant est lié à une et une seule famille de composant
+- Un composant est lié à un et un seul fournisseur
