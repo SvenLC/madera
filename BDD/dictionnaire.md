@@ -56,13 +56,14 @@
 
 ## Configuration
 
-### Configuration module
+### Entité Configuration module
 
-| Libellé de la propriété | Nom du champ | Type |
-| ----------------------- | ------------ | ---- |
-
-
-|
+| Libellé de la propriété | Nom du champ       | Type |
+| ----------------------- | ------------------ | ---- |
+| Identifiant             | CMO_ID             | N    |
+| Nom                     | CMO_NOM            | S    |
+| Coupe de principe       | CMO_COUPE_PRINCIPE | S    |
+| CCTP                    | CMO_CCTP           | S    |
 
 ## Client
 
