@@ -6,6 +6,7 @@
 
 - Un chantier est lié à un et un seul client
 - Un chantier est lié à un et un seul commercial
+- Un chantier est lié à un et un seul devis
 - Un chantier peu contenir plusieurs produits
 
 ### Produit
@@ -26,12 +27,12 @@
 - un modèle peut avoir un ou plusieurs changements
 - Un modèle de gamme peut être lié à une ou plusieurs personnalisation
 
-### Entitié personnalisation
+### Personnalisation
 
 - Une personnalisation est lié à un et un seul modèle
 - Une personnanisation est lié à un ou plusieurs composants
 
-### Entité module
+### Module
 
 - Un module est lié à un et un seul produit
 - Un produit correspond à une et un seule gamme
@@ -43,6 +44,12 @@
 - Une section est lié à un et un seul module
 - Une section à un angle qui peut être 90° ou 270°
 - Une section peut être à la suite d'une autre section
+
+### Devis
+
+- Un devis est lié à un et un seul client
+- Un devis est lié à un et un seul commercial
+- Un devis est lié à un et un seul chantier
 
 ## Configuration
 

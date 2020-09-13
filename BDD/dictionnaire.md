@@ -58,7 +58,8 @@
 
 | Libellé de la propriété | Nom du champ | Type |
 | ----------------------- | ------------ | ---- |
-
+| Identifiant             | DEV_ID       | N    |
+| Date                    | DEV_DATE     | DATE |
 
 ## Configuration
 
