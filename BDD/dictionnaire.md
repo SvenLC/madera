@@ -54,6 +54,13 @@
 | Angle                   | SEC_ANGLE    | S    |
 | Degrée angle            | SEC_DEGREE   | N    |
 
+### Entité devis
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+| Identifiant             | DEV_ID       | N    |
+| Date                    | DEV_DATE     | S    |
+
 ## Configuration
 
 ### Entité Configuration module
@@ -64,6 +71,18 @@
 | Nom                     | CMO_NOM            | S    |
 | Coupe de principe       | CMO_COUPE_PRINCIPE | S    |
 | CCTP                    | CMO_CCTP           | S    |
+
+## Commerciaux
+
+### Entité commerciaux
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+| Identifiant             | COM_ID       | S    |
+| Nom                     | COM_NOM      | S    |
+| Prénom                  | COM_PRENOM   | S    |
+| Email                   | COM_EMAIL    | S    |
+| Téléphone               | COM_TEL      | S    |
 
 ## Client
 
@@ -131,3 +150,11 @@
 | Quantité                | COM_QUANTITE    | S    |
 | Prix d'achat            | COM_PRIX_ACHAT  | N    |
 | Prix de vente           | COM_PRIX_VENTE  | N    |
+
+### Entité Modalité paiement
+
+| Libellé de la propriété | Nom du champ              | Type |
+| ----------------------- | ------------------------- | ---- |
+| Identitifiant           | MOD_PAI_ID                | N    |
+| Etape                   | MOD_PAI_ETAPE             | S    |
+| Pourcentage somme       | MOD_PAI_POURCENTAGE_SOMME | N    |
