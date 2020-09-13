@@ -63,6 +63,15 @@
 
 ## Configuration
 
+### Configuration module
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+| Identifiant             | DEV_ID       | N    |
+| Date                    | DEV_DATE     | DATE |
+
+## Configuration
+
 ### Entité Configuration module
 
 | Libellé de la propriété | Nom du champ       | Type |
@@ -71,6 +80,18 @@
 | Nom                     | CMO_NOM            | S    |
 | Coupe de principe       | CMO_COUPE_PRINCIPE | S    |
 | CCTP                    | CMO_CCTP           | S    |
+
+## Commerciaux
+
+### Entité commerciaux
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+| Identifiant             | COM_ID       | S    |
+| Nom                     | COM_NOM      | S    |
+| Prénom                  | COM_PRENOM   | S    |
+| Email                   | COM_EMAIL    | S    |
+| Téléphone               | COM_TEL      | S    |
 
 ## Commerciaux
 
