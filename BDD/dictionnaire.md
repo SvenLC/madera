@@ -54,6 +54,12 @@
 | Angle                   | SEC_ANGLE    | S    |
 | Degrée angle            | SEC_DEGREE   | N    |
 
+### Entité devis
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+
+
 ## Configuration
 
 ### Configuration module
@@ -63,6 +69,18 @@
 
 
 |
+
+## Commerciaux
+
+### Entité commerciaux
+
+| Libellé de la propriété | Nom du champ | Type |
+| ----------------------- | ------------ | ---- |
+| Identifiant             | COM_ID       | S    |
+| Nom                     | COM_NOM      | S    |
+| Prénom                  | COM_PRENOM   | S    |
+| Email                   | COM_EMAIL    | S    |
+| Téléphone               | COM_TEL      | S    |
 
 ## Client
 
@@ -92,4 +110,12 @@
 | Identifiant             | ADR_ID          | N    |
 | Numéro de la voie       | ADR_NUM_VOIE    | N    |
 | Libellé de la rue       | ADR_LIBELLE_RUE | S    |
-| Ville                   | adr_ville       | S    |
+| Ville                   | ADR_VILLE       | S    |
+
+### Entité Modalité paiement
+
+| Libellé de la propriété | Nom du champ              | Type |
+| ----------------------- | ------------------------- | ---- |
+| Identitifiant           | MOD_PAI_ID                | N    |
+| Etape                   | MOD_PAI_ETAPE             | S    |
+| Pourcentage somme       | MOD_PAI_POURCENTAGE_SOMME | N    |

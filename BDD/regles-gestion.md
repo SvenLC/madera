@@ -53,7 +53,18 @@
 - Une configuration de module est lié à un et un seul type montant
 - Une configuration de module est lié à un et un seul type de remplissage
 
+### Configuration section
+
+- Une configuration de section
+
 ## Client
+
+### Entité client
 
 - Un client est lié à un et un seul commercial
 - Un client peut avoir une ou plusieurs adresse
+- Une client est lié à 0 ou une modalité de paiement
+
+### Entité Modalité paiement
+
+- Une modalité de paiement est lié à un ou plusieurs client
