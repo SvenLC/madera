@@ -15,14 +15,31 @@
       },
       "modules": [
         {
+          "id": "65d4q5d4",
           "name": "Mur ouest - 1",
-          "sections": [{ "number": 1, "length": 400 }]
+          "sections": [
+            {
+              "number": 1,
+              "length": 400,
+              "montant": [
+                { "position": 0, "type": "Départ", "linkTo": "montant" },
+                { "id": "t4fs4d", "type": "arrivé" },
+                { "id": "t4fs4d", "type": "intermédiaire", "position": 200 }
+              ]
+            }
+          ]
         },
         {
           "name": "Mur nord - 1",
           "startWith": "Mur ouest - 1",
           "sections": [
-            { "number": 1, "length": 200 },
+            {
+              "number": 1,
+              "length": 200,
+              "montant": {
+                "position": 200
+              }
+            },
             { "number": 2, "length": 150, "angle": "entrant", "degree": 90 },
             { "number": 3, "length": 100, "angle": "sortant", "degree": 270 }
           ]

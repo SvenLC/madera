@@ -43,6 +43,7 @@
 | ----------------------- | ------------ | ---- |
 | Identifiant             | MOD_ID       | N    |
 | Nom                     | MOD_NOM      | S    |
+| Type                    | MOD_TYPE     | S    |
 
 ### Entité section
 
